@@ -1,4 +1,4 @@
-# Backwords Long Jump
+# Backwards Long Jump
 
 Script for macOS to automate web authentication for the NAIST's campus wireless LAN, Mandala Musen LAN (`mm2010` or `mm2020`).
 
