@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>dev.5ebec.BackwardsLongJump</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/5ebec/ghq/github.com/5ebec/blj/autologin_mmlan.sh</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/dev/null</string>
+    <key>StandardOutPath</key>
+    <string>/dev/null</string>
+    <key>WatchPaths</key>
+    <array>
+      <string>/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist</string>
+      <string>/Library/Preferences/SystemConfiguration/com.apple.network.identification.plist</string>
+    </array>
+  </dict>
+</plist>
