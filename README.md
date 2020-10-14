@@ -29,7 +29,8 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive
 
 4. Create a symbolic link to the plist file in `~/Library/LaunchAgents`.
 ```sh
-$ ln -s dev.5ebec.BackwardsLongJump.plist ~/Library/LaunchAgents
+$ cd ~/Library/LaunchAgents
+$ ln -s [your/path/to/dev.5ebec.BackwardsLongJump.plist]
 ```
 
 5. Load the plist file.
