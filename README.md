@@ -36,3 +36,6 @@ $ ln -s dev.5ebec.BackwardsLongJump.plist ~/Library/LaunchAgents
 ```sh
 $ launchctl load ~/Library/LaunchAgents/dev.5ebec.BackwardsLongJump.plist
 ```
+
+## LICENCE
+[MIT](./LICENCE)
