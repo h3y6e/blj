@@ -22,7 +22,7 @@ UE_PASSWORD=[your password]
 $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -boolean false
 ```
 
-3. Change the path in line 10 of [`dev.5ebec.BackwordsLongJump.plist`](./dev.5ebec.BackwardsLongJump.plist) to your path.
+3. Change the path in line 10 of [`dev.5ebec.BackwardsLongJump.plist`](./dev.5ebec.BackwardsLongJump.plist) to your path.
 ```xml:dev.5ebec.BackwardsLongJump.plist
 <string><!-- /your/path/to/autologin_mmlan.sh --></string>
 ```
