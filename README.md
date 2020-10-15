@@ -1,6 +1,6 @@
 # BLJ
 
-Script for macOS to automate web authentication for the NAIST's campus wireless LAN, Mandala Musen LAN (`mm2010` or `mm2020`).
+Script for macOS to automate web authentication for the NAIST's campus wireless LAN, Mandara Musen LAN (`mm2010` or `mm2020`).
 
 ## Usage
 
@@ -11,7 +11,7 @@ $ cd blj
 ```
 
 1. Create a `.env` with `.env.sample` as a reference.
-`UE_USERNAME` and `UE_PASSWORD` are the username and password for the mandala system, respectively.
+`UE_USERNAME` and `UE_PASSWORD` are the username and password for the Mandara System, respectively.
 ```txt:.env
 UE_USERNAME=[your username]
 UE_PASSWORD=[your password]
