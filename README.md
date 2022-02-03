@@ -5,9 +5,9 @@ Script for macOS to automate web authentication for the NAIST's campus wireless 
 ## Usage
 
 0. Clone this repo.
-```sh
-$ git clone https://github.com/5ebec/blj
-$ cd blj
+```bash
+git clone https://github.com/5ebec/blj
+cd blj
 ```
 
 1. Create a `.env` with `.env.sample` as a reference.
@@ -18,8 +18,8 @@ UE_PASSWORD=[your password]
 ```
 
 2. Prevent `Captive Network Assistant` from starting up.
-```sh
-$ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -boolean false
+```bash
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -boolean false
 ```
 
 3. Change the path in line 10 of [`dev.5ebec.BackwardsLongJump.plist`](./dev.5ebec.BackwardsLongJump.plist) to your path.
@@ -28,14 +28,15 @@ $ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive
 ```
 
 4. Create a symbolic link to the plist file in `~/Library/LaunchAgents`.
-```sh
-$ cd ~/Library/LaunchAgents
-$ ln -s [your/path/to/dev.5ebec.BackwardsLongJump.plist]
+```bash
+cd ~/Library/LaunchAgents
+ln -s [your/path/to/dev.5ebec.BackwardsLongJump.plist]
 ```
 
 5. Load the plist file.
-```sh
-$ launchctl load ~/Library/LaunchAgents/dev.5ebec.BackwardsLongJump.plist
+```bash
+launchctl unload ~/Library/LaunchAgents/dev.5ebec.BackwardsLongJump.plist
+launchctl load ~/Library/LaunchAgents/dev.5ebec.BackwardsLongJump.plist
 ```
 
 ## LICENSE
