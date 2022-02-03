@@ -18,7 +18,8 @@
     <key>WatchPaths</key>
     <array>
       <string>/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist</string>
-      <string>/Library/Preferences/SystemConfiguration/com.apple.network.identification.plist</string>
+      <string>/Library/Preferences/SystemConfiguration/com.apple.wifi.message-tracer.plist</string>
+      <string>/Library/Preferences/com.apple.wifi.known-networks.plist</string>
     </array>
   </dict>
 </plist>
