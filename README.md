@@ -2,7 +2,7 @@
 
 Script for macOS to automate web authentication for the NAIST's campus wireless LAN (`mm2010` or `mm2020`).
 
-## Usage
+## Installation
 
 0. Clone this repo.
 ```bash
