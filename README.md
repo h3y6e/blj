@@ -1,6 +1,6 @@
 # BLJ
 
-Script for macOS to automate web authentication for the NAIST's campus wireless LAN, Mandara Musen LAN (`mm2010` or `mm2020`).
+Script for macOS to automate web authentication for the NAIST's campus wireless LAN (`mm2010` or `mm2020`).
 
 ## Usage
 
@@ -38,6 +38,16 @@ ln -s [your/path/to/dev.5ebec.BackwardsLongJump.plist]
 launchctl unload ~/Library/LaunchAgents/dev.5ebec.BackwardsLongJump.plist
 launchctl load ~/Library/LaunchAgents/dev.5ebec.BackwardsLongJump.plist
 ```
+
+## Background
+
+The Mandala Musen LAN (called "曼陀羅無線LAN" in Japanese), NAIST's campus Wi-Fi, uses a web-based authentication system that requires you to enter your username and password every time you reconnect.
+
+This process is very tiresome, so have you ever wanted to automate it?
+
+The script in this repository solves this problem on macOS.
+I have confirmed that it works on Intel mac with macOS 10.15 to 12.1 (this is, Catalina, Big Sur, Monterey).
+However, I don't test it on Apple silicon mac (because I don't have one yet!).
 
 ## LICENSE
 [MIT](./LICENSE)
